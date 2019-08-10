@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-client-client-side-solution",
+    "id": "52ded709-1713-4d63-af60-eed3ba7a893d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Calendars.Read"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-client.sppkg"
+  }
+}
